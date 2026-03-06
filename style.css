@@ -610,7 +610,7 @@ main{
 table{
   width:100%;
   border-collapse:collapse;
-  min-width:680px;
+  min-width:0;
   background:#fff;
 }
 
@@ -1100,3 +1100,4 @@ body.dark .nav-links a.active{
   color:#fff;
   background:rgba(255,255,255,.08);
 }
+
