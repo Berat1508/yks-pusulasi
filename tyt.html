@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YKS Pusulası | TYT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header>
+  <div class="container navbar">
+    <a class="logo" href="index.html">YKS <span>Pusulası</span></a>
+
+    <div class="nav-right">
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Ana Sayfa</a>
+        <a  class="active" href="tyt.html">TYT</a>
+        <a href="ayt.html">AYT</a>
+        <a href="program.html">Program</a>
+        <a href="motivasyon.html">Motivasyon</a>
+        <a href="iletisim.html">İletişim</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle">🌙 Gece</button>
+      <button class="menu-btn" id="menuBtn">Menü</button>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <div class="badge">Temel Yeterlilik Testi</div>
+        <h1>TYT Çalışma Rehberi</h1>
+        <p>
+          TYT, hız ve dikkat gerektiren bir sınav yapısına sahiptir. Bu yüzden düzenli soru çözümü,
+          tekrar ve süre kontrolü birlikte ilerlemelidir.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-3">
+        <article class="card">
+          <div class="icon blue">📖</div>
+          <h3>Türkçe</h3>
+          <p>Paragraf, anlam bilgisi ve dikkat odaklı soru çözümü TYT’de büyük fark oluşturur.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon green">➗</div>
+          <h3>Matematik</h3>
+          <p>Temel kavramlar, işlem pratiği ve problem sorularında süre kontrolü önemlidir.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon yellow">🧪</div>
+          <h3>Fen + Sosyal</h3>
+          <p>Kısa tekrarlarla bilgi kalıcılığı artırılır, soru çözdükçe yorum gücü gelişir.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section">
+  <div class="container">
+    <div class="panel">
+      <h3>TYT’ye Kalan Süre</h3>
+      <p>
+        Hedefe kalan zamanı takip ederek çalışma planını daha düzenli yönetebilirsin.
+      </p>
+
+      <div class="countdown-grid">
+        <div class="countdown-box">
+          <span id="tyt-days">0</span>
+          <small>Gün</small>
+        </div>
+        <div class="countdown-box">
+          <span id="tyt-hours">0</span>
+          <small>Saat</small>
+        </div>
+        <div class="countdown-box">
+          <span id="tyt-minutes">0</span>
+          <small>Dakika</small>
+        </div>
+        <div class="countdown-box">
+          <span id="tyt-seconds">0</span>
+          <small>Saniye</small>
+        </div>
+      </div>
+
+      <p class="countdown-note" id="tyt-note">
+        Geri sayım otomatik olarak canlı güncellenir.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <div class="panel">
+          <h3>TYT’de nasıl çalışılmalı?</h3>
+          <p>
+            TYT’de sadece konu bitirmek yeterli olmaz. Özellikle Türkçe ve matematikte
+            her gün soru görmek gerekir. Bu sayede hem hız kazanılır hem de soru tipi bilgisi artar.
+          </p>
+
+          <ul class="list">
+            <li>Her gün en az kısa bir paragraf çalışması yapılmalı.</li>
+            <li>Matematikte temel konu bitince hemen test çözülmeli.</li>
+            <li>Fen ve sosyal derslerinde not çıkararak tekrar yapmak faydalıdır.</li>
+            <li>Haftada en az bir kez zaman tutularak mini deneme çözülmeli.</li>
+          </ul>
+
+          <div class="quote">
+            TYT’de başarı çoğu zaman düzenli tekrar ve soru pratiğiyle gelir.
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Örnek TYT ders yapısı</h3>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Ders</th>
+                  <th>Odak Noktası</th>
+                  <th>Çalışma Şekli</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Türkçe</td>
+                  <td>Paragraf ve anlam</td>
+                  <td>Günlük soru çözümü</td>
+                </tr>
+                <tr>
+                  <td>Matematik</td>
+                  <td>Temel kavramlar ve problemler</td>
+                  <td>Konu + test</td>
+                </tr>
+                <tr>
+                  <td>Fen</td>
+                  <td>Kavram bilgisi</td>
+                  <td>Not çıkarma + tekrar</td>
+                </tr>
+                <tr>
+                  <td>Sosyal</td>
+                  <td>Bilgi ve yorum</td>
+                  <td>Kısa tekrar + soru</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="note">Bu tablo proje amacıyla sade ve düzenli bir örnek olarak hazırlanmıştır.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> YKS Pusulası | Web Tasarım Projesi
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

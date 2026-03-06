@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YKS Pusulası | AYT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+  <div class="container navbar">
+    <a class="logo" href="index.html">YKS <span>Pusulası</span></a>
+
+    <div class="nav-right">
+      <nav class="nav-links" id="navLinks">
+  <a href="index.html">Ana Sayfa</a>
+  <a href="tyt.html">TYT</a>
+  <a class="active" href="ayt.html">AYT</a>
+  <a href="program.html">Program</a>
+  <a href="motivasyon.html">Motivasyon</a>
+  <a href="iletisim.html">İletişim</a>
+</nav>
+
+      <button class="theme-toggle" id="themeToggle">🌙 Gece</button>
+      <button class="menu-btn" id="menuBtn">Menü</button>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <div class="badge">Alan Yeterlilik Testi</div>
+        <h1>AYT Çalışma Rehberi</h1>
+        <p>
+          AYT’de derin konu bilgisi daha önemlidir. Konuyu anlamak, test çözmek ve denemelerle eksikleri görmek
+          birlikte yürütülmelidir.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-3">
+        <article class="card">
+          <div class="icon purple">📐</div>
+          <h3>Matematik</h3>
+          <p>Konu derinliği ve soru çeşitliliği artar, bu yüzden sabırlı ilerlemek gerekir.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon yellow">⚛️</div>
+          <h3>Fizik - Kimya</h3>
+          <p>Mantığı anlamak ve formülleri uygulamak AYT sayısalda temel noktalardır.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon green">🧬</div>
+          <h3>Biyoloji</h3>
+          <p>Sistemler ve kavramlar düzenli tekrar edilince soru çözümü daha güçlü olur.</p>
+        </article>
+      </div>
+    </section>
+    <section class="section">
+  <div class="container">
+    <div class="panel">
+      <h3>AYT’ye Kalan Süre</h3>
+      <p>
+        Sınava kalan süreyi görmek, haftalık hedeflerini daha bilinçli ayarlamana yardımcı olur.
+      </p>
+
+      <div class="countdown-grid">
+        <div class="countdown-box">
+          <span id="ayt-days">0</span>
+          <small>Gün</small>
+        </div>
+        <div class="countdown-box">
+          <span id="ayt-hours">0</span>
+          <small>Saat</small>
+        </div>
+        <div class="countdown-box">
+          <span id="ayt-minutes">0</span>
+          <small>Dakika</small>
+        </div>
+        <div class="countdown-box">
+          <span id="ayt-seconds">0</span>
+          <small>Saniye</small>
+        </div>
+      </div>
+
+      <p class="countdown-note" id="ayt-note">
+        Geri sayım otomatik olarak canlı güncellenir.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <div class="panel">
+          <h3>AYT’de nasıl ilerlenmeli?</h3>
+          <p>
+            AYT çalışırken konular daha detaylı olduğu için bir dersi uzun süre bırakmamak gerekir.
+            Düzenli dönüp bakmak, öğrenilen bilgiyi kalıcı hale getirir.
+          </p>
+
+          <ul class="list">
+            <li>Konu anlatımı biter bitmez orta seviye sorular çözülmeli.</li>
+            <li>Zor konular haftalık tekrar planına eklenmeli.</li>
+            <li>Deneme sonrası yanlışların nedeni mutlaka incelenmeli.</li>
+            <li>Dersler arasında denge kurularak birikme engellenmeli.</li>
+          </ul>
+
+          <div class="quote">
+            AYT’de başarı, konuyu ezberlemekten çok mantığını kavrayıp uygulayabilmekle gelir.
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Örnek AYT alan yapısı</h3>
+
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Ders</th>
+                  <th>Temel Amaç</th>
+                  <th>Yöntem</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Matematik</td>
+                  <td>Konu derinliği</td>
+                  <td>Orta-zor soru çözümü</td>
+                </tr>
+                <tr>
+                  <td>Fizik</td>
+                  <td>Mantık kurma</td>
+                  <td>Formül + uygulama</td>
+                </tr>
+                <tr>
+                  <td>Kimya</td>
+                  <td>Kavram bütünlüğü</td>
+                  <td>Özet not + test</td>
+                </tr>
+                <tr>
+                  <td>Biyoloji</td>
+                  <td>Sistem bilgisi</td>
+                  <td>Tekrar + görsel hafıza</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> YKS Pusulası | Web Tasarım Projesi
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YKS Pusulası | Program</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header>
+  <div class="container navbar">
+    <a class="logo" href="index.html">YKS <span>Pusulası</span></a>
+
+    <div class="nav-right">
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="tyt.html">TYT</a>
+        <a href="ayt.html">AYT</a>
+        <a class="active" href="program.html">Program</a>
+        <a href="motivasyon.html">Motivasyon</a>
+        <a href="iletisim.html">İletişim</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle">🌙 Gece</button>
+      <button class="menu-btn" id="menuBtn">Menü</button>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <div class="badge">Düzenli Çalışma Sistemi</div>
+        <h1>Örnek Haftalık Program</h1>
+        <p>
+          Programın amacı her dersi aynı güne yığmadan dengeli bir akış kurmaktır.
+          Böylece hem tekrar yapılır hem de dersler birikmez.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-3">
+        <article class="card">
+          <div class="icon yellow">🗓️</div>
+          <h3>Denge</h3>
+          <p>Bir haftaya konu, soru ve tekrar birlikte dağıtılınca plan daha uygulanabilir olur.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon blue">⏱️</div>
+          <h3>Süre</h3>
+          <p>Kısa ama odaklı oturumlar, uzun ama verimsiz çalışmadan daha etkili olabilir.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon pink">✅</div>
+          <h3>Süreklilik</h3>
+          <p>Planın mükemmel olması değil, uygulanabilir olması daha önemlidir.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Gün</th>
+                <th>1. Oturum</th>
+                <th>2. Oturum</th>
+                <th>3. Oturum</th>
+                <th>Akşam</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Pazartesi</td>
+                <td>Matematik konu</td>
+                <td>Türkçe paragraf</td>
+                <td>Fen tekrar</td>
+                <td>Kısa test</td>
+              </tr>
+              <tr>
+                <td>Salı</td>
+                <td>Türkçe</td>
+                <td>Matematik problem</td>
+                <td>Sosyal tekrar</td>
+                <td>Yanlış analizi</td>
+              </tr>
+              <tr>
+                <td>Çarşamba</td>
+                <td>AYT matematik</td>
+                <td>Fizik</td>
+                <td>Paragraf</td>
+                <td>Tekrar</td>
+              </tr>
+              <tr>
+                <td>Perşembe</td>
+                <td>Kimya</td>
+                <td>TYT matematik</td>
+                <td>Biyoloji</td>
+                <td>Soru çözümü</td>
+              </tr>
+              <tr>
+                <td>Cuma</td>
+                <td>Türkçe</td>
+                <td>Fen</td>
+                <td>Sosyal</td>
+                <td>Konu tekrar</td>
+              </tr>
+              <tr>
+                <td>Cumartesi</td>
+                <td>Deneme sınavı</td>
+                <td>Deneme analizi</td>
+                <td>Eksik konu</td>
+                <td>Hafif tekrar</td>
+              </tr>
+              <tr>
+                <td>Pazar</td>
+                <td>Eksik tamamlama</td>
+                <td>Paragraf + problem</td>
+                <td>Haftalık değerlendirme</td>
+                <td>Dinlenme</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="note">
+          Bu tablo örnek amaçlıdır. İstersen daha sonra kendi gerçek saatlerine göre düzenleyebilirsin.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <div class="panel">
+          <h3>Program hazırlarken dikkat et</h3>
+          <ul class="list">
+            <li>Zor dersleri tamamen sona bırakma.</li>
+            <li>Aynı gün çok fazla farklı konu koyma.</li>
+            <li>Haftada en az bir deneme ve analiz ekle.</li>
+            <li>Tekrar için ayrı zaman ayırmayı unutma.</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h3>Neden program önemli?</h3>
+          <p>
+            Programsız çalışmada hangi derse ne kadar zaman ayrıldığı kolayca dağılır.
+            Basit bir plan ise süreci daha kontrollü ve motive edici hale getirir.
+          </p>
+
+          <div class="quote">
+            Düzenli bir plan, hedefe ulaşmayı kolaylaştıran en güçlü araçlardan biridir.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> YKS Pusulası | Web Tasarım Projesi
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YKS Pusulası | İletişim</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header>
+  <div class="container navbar">
+    <a class="logo" href="index.html">YKS <span>Pusulası</span></a>
+
+    <div class="nav-right">
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="tyt.html">TYT</a>
+        <a href="ayt.html">AYT</a>
+        <a href="program.html">Program</a>
+        <a href="motivasyon.html">Motivasyon</a>
+        <a class="active" href="iletisim.html">İletişim</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle">🌙 Gece</button>
+      <button class="menu-btn" id="menuBtn">Menü</button>
+    </div>
+  </div>
+</header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <div class="badge">Form Bölümü</div>
+        <h1>İletişim Sayfası</h1>
+        <p>
+          Bu sayfa proje görünümünü tamamlar. Form yapısı sayesinde site daha gerçek
+          ve profesyonel bir web sitesi gibi görünür.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-box">
+          <h3>Site Bilgileri</h3>
+          <p>
+            Bu iletişim alanı örnek amaçlı hazırlanmıştır. Gerçek veri gönderimi yapmaz
+            ama tasarım açısından projeye güçlü bir görünüm kazandırır.
+          </p>
+
+          <ul class="info-list">
+            <li><strong>Site Adı:</strong> YKS Pusulası</li>
+            <li><strong>Konu:</strong> Üniversite sınavı rehber sitesi</li>
+            <li><strong>Yapı:</strong> Çok sayfalı modern web tasarım</li>
+          </ul>
+
+          <div class="quote">
+            İletişim sayfası, sitenin tamamlanmış ve düzenli görünmesini sağlar.
+          </div>
+        </div>
+
+        <div class="contact-box">
+          <h3>Mesaj Formu</h3>
+
+          <form>
+            <div>
+              <label for="ad">Ad Soyad</label>
+              <input id="ad" type="text" placeholder="Adınızı girin" required />
+            </div>
+
+            <div>
+              <label for="eposta">E-posta</label>
+              <input id="eposta" type="email" placeholder="E-posta adresiniz" required />
+            </div>
+
+            <div>
+              <label for="mesaj">Mesaj</label>
+              <textarea id="mesaj" placeholder="Mesajınızı yazın"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Gönder</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> YKS Pusulası | Web Tasarım Projesi
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
